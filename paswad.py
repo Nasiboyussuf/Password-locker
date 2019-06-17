@@ -33,6 +33,7 @@ class user :
             if details.account == account:
                 return details
                 
+                
     @classmethod
     def user_exists(cls,account):
         '''
