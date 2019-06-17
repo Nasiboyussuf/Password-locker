@@ -23,7 +23,7 @@ def save_user(user):
     Function to save users
     '''
     user.save_user()
-    
+
 def del_user(user):
     '''
     Function to delete a user
@@ -35,7 +35,7 @@ def find_user(account):
     Function that finds a user by account name and returns the  user
     '''
     return User.find_by_account(account)
-
+    
 def check_existing_user(account):
     '''
     Function that checks if a user exists with that account and returns Boolean
