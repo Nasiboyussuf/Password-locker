@@ -58,7 +58,7 @@ def generate_paswad():
     Function that generates a password for the user
     '''
     return Credentials.generatePassword()
-
+    
 def main():
     print("Hello! Welcome to your Password Locker.Kindly sign up below")
     while True:
@@ -106,13 +106,13 @@ def main():
 
 
                                 elif pass_choice == 'g':
-                                    print("Here's a password we think will work for you...")
+                                    print("Here's a password I hope will is suitable for you...")
                                     print('\n')
                                     print(generate_password())
                                     gene= generate_password()
 
                                 if account == '' or username == '' or pass_choice == '':
-                                    print("Account creation failed! Either Account, username or password is blank")
+                                    print("Account creation failed! Either Account, username or password is not there")
                                     print('\n')
 
                                 else:
