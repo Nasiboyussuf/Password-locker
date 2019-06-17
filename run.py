@@ -123,7 +123,7 @@ def main():
                                     print(f"New Credentials for {account} created")
                                     print ('\n')
                                 break
-                                
+
                     elif short_code == 'del':
                         print("Enter name of account to be deleted")
                         deli_user = input()
