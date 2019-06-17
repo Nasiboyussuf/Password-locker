@@ -1,5 +1,4 @@
 # Password-locker
-
 This is an app that allows a user to create,save,display and delete credentials for different online accounts.
 
 ## Author
@@ -34,6 +33,7 @@ No known bugs
 ## Contacts
 Feel free to reach out to me
 [Email address](https://mail.google.com/mail)
+
 Phone number :+254799332404
 ## Licencing
 MIT Licence
