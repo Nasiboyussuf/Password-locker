@@ -17,8 +17,7 @@ def create_paswad(account, password):
     '''
     new_pass = Credentials(account, password)
     return new_pass
-
-
+    
 def save_user(user):
     '''
     Function to save users
