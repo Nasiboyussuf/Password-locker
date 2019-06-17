@@ -10,8 +10,7 @@ def create_user(username, account,password):
     '''
     new_user = User(username, account,password)
     return new_user
-
-
+    
 def create_paswad(account, password):
     '''
     Function to create new password
