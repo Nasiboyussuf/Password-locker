@@ -1,5 +1,5 @@
 # Password-locker
-This is an app that allows a user to create,save,display and delete credentials for different their online accounts.It is a cool and useful application.
+This is an app that allows a user to create,save,display and delete credentials for their different online accounts.It is a cool and useful application.
 
 ## Author
 
