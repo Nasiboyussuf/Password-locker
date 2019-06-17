@@ -31,7 +31,7 @@ class user :
         for details in cls.user_list:
             if details.account == account:
                 return details
-
+                
     @classmethod
     def user_exists(cls,account):
         '''
