@@ -82,7 +82,7 @@ def main():
                     print("Use these short codes : cc - create  new account credentials, dc - display account credentials, fc -find an account's credentials, ex -exit Password Locker, del - delete account credentials ")
 
                     short_code = input().lower()
-                    
+
                     if short_code == 'cc':
                             print("New Account")
                             print("*"*50)
@@ -123,8 +123,7 @@ def main():
                                     print(f"New Credentials for {account} created")
                                     print ('\n')
                                 break
-
-
+                                
                     elif short_code == 'del':
                         print("Enter name of account to be deleted")
                         deli_user = input()
