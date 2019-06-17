@@ -1,4 +1,5 @@
 import random
+
 class user :
     '''
     Class that generates new instances of a User
