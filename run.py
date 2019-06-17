@@ -58,7 +58,7 @@ def generate_paswad():
     Function that generates a password for the user
     '''
     return Credentials.generatePassword()
-    
+
 def main():
     print("Hello! Welcome to your Password Locker.Kindly sign up below")
     while True:
@@ -82,7 +82,7 @@ def main():
                     print("Use these short codes : cc - create  new account credentials, dc - display account credentials, fc -find an account's credentials, ex -exit Password Locker, del - delete account credentials ")
 
                     short_code = input().lower()
-
+                    
                     if short_code == 'cc':
                             print("New Account")
                             print("*"*50)
