@@ -2,6 +2,7 @@ import unittest
 from paswad import User
 from paswad import Credentials
 
+
 class TestUser(unittest.TestCase):
     '''
     Test class that defines tests for User class behaviours
